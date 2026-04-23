@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("/assets/img/fondo.jpg") no-repeat center center/cover;
+  color: white;
+}
+
+.contenedor {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+/* 🔹 Ajuste para celulares */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 12px 20px;
+  }
+}
